@@ -5,4 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#211D44"
-    tools:context=".settings"/>
+    tools:context=".settings">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="623dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColorHint="#52BAFF"
+        android:textColor="#52BAFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/fallingskyblack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="619dp"
+        android:background="@drawable/button_2"
+        android:text="Button"
+        android:fontFamily="@font/fallingskyblack"
+        android:textColor="#211D44"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

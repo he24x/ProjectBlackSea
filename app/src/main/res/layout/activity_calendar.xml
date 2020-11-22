@@ -27,8 +27,9 @@
             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
 
         <EditText
-            android:id="@+id/Sys"
-            android:layout_width="wrap_content"
+            android:id="@+id/status"
+            android:fontFamily="@font/fallingskyblack"
+            android:layout_width="344dp"
             android:layout_height="36dp"
             android:layout_marginLeft="36dp"
             android:layout_marginTop="12dp"
@@ -36,75 +37,34 @@
             android:background="@drawable/button_1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Sys"
-            android:textColor="#FFFFFF"
+            android:hint="Write here how are you feeling"
+            android:textColor="#211D44"
+            android:textColorHint="#211D44"
             android:textSize="18dp" />
 
-        <EditText
-            android:id="@+id/Dia"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_marginLeft="36dp"
+        <TextView
+            android:id="@+id/textView2"
+            android:fontFamily="@font/fallingskyblack"
+            android:text="Format example: Sys, Dia, Pulse, Oxygen, Temperature"
+            android:layout_width="346dp"
+            android:textColor="#52BAFF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:layout_marginRight="251dp"
-            android:text="Dia"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/button_1"/>
-
-        <EditText
-            android:id="@+id/Pulse"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_marginLeft="36dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="251dp"
-            android:text="Pulse"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/button_1"/>
-
-        <EditText
-            android:id="@+id/Oxygen"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_marginLeft="36dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="251dp"
-            android:text="Oxygen"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/button_1"/>
-
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="match_parent"
-            android:layout_height="36dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_marginLeft="36dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="251dp"
-            android:layout_marginBottom="12dp"
-            android:text="Temperature"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF"
-            android:background="@drawable/button_1"/>
+             />
 
         <Button
+            android:id="@+id/savebtn"
             android:layout_width="127dp"
+            android:fontFamily="@font/fallingskyblack"
             android:layout_height="wrap_content"
             android:layout_marginLeft="36dp"
             android:layout_marginRight="251dp"
             android:background="@drawable/button_2"
             android:text="Save"
-            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#211D44"
             android:textSize="12dp" />
 
     </LinearLayout>

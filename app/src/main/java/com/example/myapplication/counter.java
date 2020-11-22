@@ -38,13 +38,13 @@ public class counter extends AppCompatActivity {
                 washes++;
                 number.setText(Integer.toString(washes));
                 if (washes==1) {
-                    information.setText("You have washed your hands once today");
+                    information.setText("You have washed your hands once today!");
                 }else if (washes==2) {
-                    information.setText("You have washed your hands twice today");
+                    information.setText("You have washed your hands twice today!");
                 }else if(washes==0){
                     information.setText("You didn't wash your hands!");
                 }else{
-                    information.setText("You have washed your hands " + washes + " times today");
+                    information.setText("You have washed your hands " + washes + " times today!");
                 }
                 saveData();
             }
@@ -55,13 +55,13 @@ public class counter extends AppCompatActivity {
                 washes--;
                 number.setText(Integer.toString(washes));
                 if (washes==1) {
-                    information.setText("You have washed your hands once today");
+                    information.setText("You have washed your hands once today!");
                 }else if (washes==2) {
-                    information.setText("You have washed your hands twice today");
+                    information.setText("You have washed your hands twice today!");
                 }else if(washes==0){
                     information.setText("You didn't wash your hands!");
                 }else{
-                    information.setText("You have washed your hands " + washes + " times today");
+                    information.setText("You have washed your hands " + washes + " times today!");
                 }
                 saveData();
             }
